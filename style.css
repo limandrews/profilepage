@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+.top-navi{
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navi-tabs {
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.border {
+    border: 2px solid gray;
+    border-top: none;
+}
+
+.top-navi h1{
+    color: white;
+}
+
+.leftcolumn {
+    flex: 2;
+}
+
+.rightcolumn {
+    flex: 1;
+}
+
+.leftcolumn, .rightcolumn {
+    flex-wrap: wrap;
+}
+
+.idcard {
+    margin-bottom: 15px;
+    border-top: none;
+}
+
+.idheader {
+    background-color: aqua;
+    width: 100%;
+    min-height: 100px;
+}
+
+#uc {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 20px;
+    top: 70px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.idbody {
+    background-color: white;
+    padding: 50px;
+}
+
+#mapmark {
+    width: 20px;
+    height: 20px;
+}
+
+.her_roles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+#gear {
+    width: 15px;
+    height: 15px;
+}
+
+.education {
+    width: 100%;
+}
+
+.edheader {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+.edbody {
+    background-color: white;
+    padding: 20px;
+}
+
+.connectionrequest {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.conreqhead {
+    background-color: black;
+    /* width: 100%; */
+    min-height: 50px;
+    color: white;
+    padding-left: 10px;
+}
+
+.cqimg {
+    width: 35px;
+    height: 35px;
+}
+
+.button2 {
+    background-color: gray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.conreqbody {
+    background-color: white;
+    padding: 20px;
+}
+
+.yourconnections {
+    height: 300px;
+    width: 300px;
+}
+
+.youconhead {
+    background-color: black;
+    min-height: 50px;
+    color: white;
+    padding-left: 10px;
+}
+
+.button500 {
+    background-color: gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 30px;
+}
+
+.youconbody {
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    background-color: wheat;
+}
+
+.bordertop {
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.mb {
+    margin-bottom: 5px;
+}
